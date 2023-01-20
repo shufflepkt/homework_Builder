@@ -1,8 +1,8 @@
 public class PersonBuilder {
-    protected String name;
-    protected String surname;
-    protected Integer age;
-    protected String address;
+    private String name;
+    private String surname;
+    private Integer age;
+    private String address;
 
     public PersonBuilder setName(String name) {
         this.name = name;
